@@ -1,0 +1,128 @@
+
+body {
+    background-image: linear-gradient(to top, #d4d4fc, #b3b3eb,#6bb0c5, #b3b3eb);
+}
+
+* {
+    font-family: 'Unna', serif;
+    color: #000000;
+    font-size: 32px;
+}
+
+.text-area { 
+    background-color: #dadae4;
+    font-family: 'Unna', serif;
+    color: #0e0e66;
+    font-weight: 400;
+    font-size: 32px;
+    border: 2px solid #0e0e66;
+    border-radius: 20px;
+    margin-top: 90px;
+    text-transform: lowercase;
+   
+}
+
+h6 {
+    margin-top: 10px;
+    color: #000000;
+    font-size: 20px;
+}
+
+.logo-alura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 3%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+::placeholder { color: #0e0e66; } 
+    .text-area:focus { outline: none; }
+
+.text-2 {
+    background-color: #edeeee;
+    background-image: url(./img/img-lupa.jpg);
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Unna', serif;
+    color: #0e0e66;
+    font-weight: 400;
+    font-size: 32px;
+    border: 2px solid #0e0e66;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 5px;
+    text-transform: lowercase;
+    
+}
+
+.mensagem:focus {
+    outline: none;
+}
+
+main button {
+    background-color: #e0cbe9;
+    width: 50%;
+    height: 10%;
+    font-family: inherit;
+    color: #0e0e66;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+    width: 110%;
+    height: 80%;
+    gap: 15px;
+    
+
+}
+
+.botoes-2 {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18px;
+    margin-left: 8%;
+    width: 110%;
+    height: 90%;
+    position: center;
+}
+
+footer {
+    display: flex;
+    gap: 20px;
+    border-radius: 50px solid #0e0e66;
+    box-shadow: 5px 5px 5px #0e0e66;
+    
+}
+
+.links {
+    margin-left: 100px;
+}
+
+footer img {
+    margin-top: 80px;
+    border-radius: 20px;
+    width: 40px;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 18px;
+    color: #0e0e66;
+}
